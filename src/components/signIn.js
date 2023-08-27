@@ -37,7 +37,7 @@ export const SignIn = () => {
     <br></br>
 
 
-    <Box  className="passwordFeild">
+    <Box  className="passwordFeild" onBlur={(e) => setPassword(e.target.value)}>
         <FormControl  variant="outlined">
           <InputLabel htmlFor="outlined-basic">סיסמה</InputLabel>
           <OutlinedInput

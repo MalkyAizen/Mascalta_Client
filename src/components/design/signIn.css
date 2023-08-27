@@ -1,20 +1,24 @@
 .signInPage{
-    text-align: center !important;
-    margin-top: 10%;
+margin-top: 20%;
+    width: 20%; /* אורך הדיב יתאים לתוכן */
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: rgba(146, 42, 42, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 }
 .emailFeild{
-    margin-top: 0.5% !important;
+    margin-top: 3% !important;
     color: black !important;
 }
 .passwordFeild{
-    margin-top: 0.5% !important;
+    margin-top: 3% !important;
     color: black !important;
     direction: ltr !important;
-    size: 90%;
     }
 .confirmButton{
-    margin-top: 0.5% !important;
+    margin-top: 7% !important;
     color: black !important;
+    margin-bottom: 10%;
 }
 
 
