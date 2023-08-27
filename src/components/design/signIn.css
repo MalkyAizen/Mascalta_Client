@@ -1,0 +1,20 @@
+.signInPage{
+    text-align: center !important;
+    margin-top: 10%;
+}
+.emailFeild{
+    margin-top: 0.5% !important;
+    color: black !important;
+}
+.passwordFeild{
+    margin-top: 0.5% !important;
+    color: black !important;
+    direction: ltr !important;
+    size: 90%;
+    }
+.confirmButton{
+    margin-top: 0.5% !important;
+    color: black !important;
+}
+
+
