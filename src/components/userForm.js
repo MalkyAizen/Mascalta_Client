@@ -1,11 +1,26 @@
 import { FormControl, MenuItem, Select, TextField } from '@mui/material';
 import FormGroup from '@mui/material/FormGroup';
 import React from 'react';
-import '../design/userForm.css';
+import './design/userForm.css';
+import axios from 'axios';
+
 
 
 export const UserForm = () => {
 
+    axios.get('http://localhost:16079/api/User/getUser')
+  .then(response => {
+    // טיפול בתוצאה
+    console.log(response.data);
+  })
+  .catch(error => {
+    // טיפול בשגיאה
+    console.error('שגיאה בשליחת בקשה:', error);
+  });
+
+  fetch('http://localhost:16079/api/User/getUser')
+   .then(response => response.json())
+   .then(data => console.log(data));
     const [age, setAge] = React.useState('');
 
     const handleChange = (event) => {
